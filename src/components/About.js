@@ -8,7 +8,7 @@ function About() {
       <h2>About Me</h2>
       <div className='row justify-content-center'>
         <div className='col-md-3 '>
-          <img src={profile} className='img-fluid p-3'></img>
+          <img src={profile} alt ='Profile' className='img-fluid p-3'></img>
         </div>
         <div className='col-md-6 align-self-center'>
           <p>

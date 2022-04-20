@@ -15,7 +15,7 @@ function Footer() {
           <a href='https://www.linkedin.com/in/thisjameslee/'><IoLogoLinkedin/></a>
         </div>
         <div className='col'>
-          <a href='#resume'><IoNewspaperOutline/></a>
+          <a href='../../assets/James-Lee-Resume.pdf'><IoNewspaperOutline/></a>
         </div>
       </IconContext.Provider>
     </footer>
