@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.375344be.css",
+    "main.js": "/Portfolio/static/js/main.76187853.js",
+    "static/media/profile.png": "/Portfolio/static/media/profile.748913523dfab08858a9.png",
+    "static/media/rpg.png": "/Portfolio/static/media/rpg.19689f62acb04f39d491.png",
+    "static/media/pokemon.png": "/Portfolio/static/media/pokemon.186615e2529800db9d1a.png",
+    "static/media/weather.png": "/Portfolio/static/media/weather.b55b5cc6734db4ee8d92.png",
+    "static/media/blog.png": "/Portfolio/static/media/blog.95546f1300fb4f2b97b3.png",
+    "index.html": "/Portfolio/index.html",
+    "main.375344be.css.map": "/Portfolio/static/css/main.375344be.css.map",
+    "main.76187853.js.map": "/Portfolio/static/js/main.76187853.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.375344be.css",
+    "static/js/main.76187853.js"
+  ]
+}
