@@ -12,7 +12,6 @@ function Navbar() {
         <li className='nav-item'><a href="#about" className=''>About</a></li>
         <li className='nav-item'><a href="#projects" className=''>Projects</a></li>
         <li className='nav-item'><a href="#contact" className=''>Contact Me</a></li>
-        <li className='nav-item'><a href="#resume" className=''>Resume</a></li>
       </ul>
     </nav>
   );
