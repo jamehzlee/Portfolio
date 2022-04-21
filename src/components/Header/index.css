@@ -1,0 +1,25 @@
+.header {
+    background-color: #161b22;
+}
+
+.header .text-start{
+    min-width: 210px;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    padding-left: 30px;
+}
+
+.header a {
+    text-decoration: none;
+    color: #c9d1d9;
+    padding-top: 30px;
+    font-size: 1.8rem;
+}
+
+.header .nav-col {
+    padding-right: 0;
+}
+
+.nav-col .nav-tabs {
+    padding-top: 30px;
+}
