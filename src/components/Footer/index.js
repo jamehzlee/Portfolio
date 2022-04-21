@@ -1,8 +1,7 @@
-import React from 'react';
+import './index.css';
 import { IoNewspaperOutline} from 'react-icons/io5';
 import { IoLogoGithub, IoLogoLinkedin} from 'react-icons/io';
 import { IconContext } from 'react-icons/lib';
-import './Footer.css';
 import resume from '../../assets/resume/James-Lee-Resume.pdf'
 
 function Footer() {
