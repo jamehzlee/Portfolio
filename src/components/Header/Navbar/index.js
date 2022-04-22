@@ -12,6 +12,18 @@ const Navbar = () => {
             as={NavLink}
             exact='true' 
             activeclassname='active'
+            to='/'
+            className='about-link col'
+          >
+            About
+          </Nav.Link>
+        </Nav.Item>
+
+        <Nav.Item>
+          <Nav.Link 
+            as={NavLink}
+            exact='true' 
+            activeclassname='active'
             to='/projects'
             className='projects-link col'
           >
