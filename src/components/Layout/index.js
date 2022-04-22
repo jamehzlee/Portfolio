@@ -5,9 +5,9 @@ import { Outlet } from 'react-router-dom';
 
 const Layout = () => {
     return (
-        <div className='container-fluid'>
+        <div className='container'>
             <Header />
-
+            
             <Outlet />
 
             <Footer />
