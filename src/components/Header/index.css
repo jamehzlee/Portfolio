@@ -1,13 +1,15 @@
 .header {
     background-color: #161b22;
+    max-height: 100px;
+    padding-top: 20px;
+    align-self: flex-start;
 }
 
 .header .name {
-    min-width: 210px;
+    min-width: 160px;
     font-size: 2rem;
-    padding-bottom: 10px;
-    padding-left: 50px;
-    padding-top: 30px;
+    padding-left: 20px;
+
 }
 
 .header a {
@@ -17,11 +19,7 @@
 }
 
 .header .nav-col {
-    padding: 0;
-}
-
-.nav-col .nav-tabs {
-    padding-top: 30px;
+    padding-right: 0;
 }
 
 .nav-col .nav-item {

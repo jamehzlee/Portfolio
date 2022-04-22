@@ -1,12 +1,13 @@
-// import './Section.css';
+import './index.css';
 
 function Contact() {
   return (
-    <section id='contact' className="">
+    <div className="form">
+      
       {/* <h2>Contact Me</h2>
       <a href='mailto:this.jameslee96@gmail.com'>this.jameslee96@gmail.com</a>
       <p>Phone #: 201-364-3636</p> */}
-    </section>
+    </div>
   );
 }
 

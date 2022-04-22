@@ -1,11 +1,15 @@
-@media (min-width: 768px) {
-    .projects {
-        padding: 20px;
-    }
-    
-    .projects .col {
-        padding: 30px;
-    }
+.projects {
+    padding: 30px;
+    padding-bottom: 0;
+}
+
+.projects-row {
+    justify-content: center;
+}
+
+.projects .col {
+    padding: 20px;
+    min-width: 300px;
 }
 
 .projects img {

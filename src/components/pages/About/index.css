@@ -1,14 +1,14 @@
-.about-row {
+.about {
     text-align: center;
     padding-top: 30px;
     margin-bottom: 15px;
 }
 
-.about-row h2 {
+.about h2 {
     font-size: 40px;
 }
 
-.about-row p {
+.about p {
     font-size: 25px;
 }
 

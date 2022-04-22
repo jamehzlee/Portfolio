@@ -6,29 +6,31 @@ import blog from '../../../assets/images/blog.png';
 
 const  Projects = () => {
   return (
-        <div className='row projects justify-content-center'>
-          <div className='col col-md-6'>
-            <a href='https://jamehzlee.github.io/Pokemon-Data-Finder/'>
-              <img src={pokemon} alt='Pokemon' className='img-fluid h-100'></img>
-            </a>
-          </div>
+        <div className='col projects col-12'>
+          <div className='row projects-row'>
+            <div className='col col-md-6'>
+              <a href='https://jamehzlee.github.io/Pokemon-Data-Finder/'>
+                <img src={pokemon} alt='Pokemon' className=''></img>
+              </a>
+            </div>
 
-          <div className='col col-md-6'>
-            <a href='https://bp-rpg-character-database.herokuapp.com/'>
-              <img src={rpg} alt='RPG' className='img-fluid h-100'></img>
-            </a>
-          </div>
-   
-          <div className='col col-md-6'>
-            <a href='https://jamehzlee.github.io/Weather-Dashboard/'>
-              <img src={weather} alt='Weather' className='img-fluid h-100'></img>
-            </a>
-          </div>
+            <div className='col col-md-6'>
+              <a href='https://bp-rpg-character-database.herokuapp.com/'>
+                <img src={rpg} alt='RPG' className=''></img>
+              </a>
+            </div>
+    
+            <div className='col col-md-6'>
+              <a href='https://jamehzlee.github.io/Weather-Dashboard/'>
+                <img src={weather} alt='Weather' className=''></img>
+              </a>
+            </div>
 
-          <div className='col col-md-6'>
-            <a href='https://tech-blog-jlee.herokuapp.com/'>
-              <img src={blog} alt='Tech Blog' className='img-fluid h-100'></img>
-            </a>
+            <div className='col col-md-6'>
+              <a href='https://tech-blog-jlee.herokuapp.com/'>
+                <img src={blog} alt='Tech Blog' className=''></img>
+              </a>
+            </div>
           </div>
         </div>
   );

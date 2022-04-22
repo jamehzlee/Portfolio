@@ -3,6 +3,7 @@
     min-height: 100%;
 }
 
-#root .footer {
-    margin: 0;
+#root .body-row {
+    min-height: 100vh;
+    min-width: 100vw;
 }
