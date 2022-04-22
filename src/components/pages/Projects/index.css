@@ -1,8 +1,17 @@
-.col {
+@media (min-width: 768px) {
+    .projects {
+        padding: 20px;
+    }
+    
+    .projects .col {
+        padding: 30px;
+    }
+}
+
+.projects img {
     background-color: #212529;
     border-radius: 10px;
-}
-  
-.col img {
-    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+    opacity: 80%;
 }

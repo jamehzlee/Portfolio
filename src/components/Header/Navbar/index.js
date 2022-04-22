@@ -10,10 +10,8 @@ const Navbar = () => {
         <Nav.Item>
           <Nav.Link 
             as={NavLink}
-            exact='true' 
-            activeclassname='active'
             to='/'
-            className='about-link col'
+            className='about-link'
           >
             About
           </Nav.Link>
@@ -22,10 +20,8 @@ const Navbar = () => {
         <Nav.Item>
           <Nav.Link 
             as={NavLink}
-            exact='true' 
-            activeclassname='active'
             to='/projects'
-            className='projects-link col'
+            className='projects-link'
           >
             Projects
           </Nav.Link>
@@ -34,10 +30,8 @@ const Navbar = () => {
         <Nav.Item>
           <Nav.Link 
             as={NavLink}
-            exact='true' 
-            activeclassname='active'
             to='/contact'
-            className='contact-link col'
+            className='contact-link'
           >
             Contact Me
           </Nav.Link>
@@ -45,10 +39,8 @@ const Navbar = () => {
         <Nav.Item>
           <Nav.Link 
             as={NavLink}
-            exact='true' 
-            activeclassname='active'
             to='/resume'
-            className='resume-link col'
+            className='resume-link'
           >
             Resume
           </Nav.Link>
