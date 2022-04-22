@@ -6,9 +6,9 @@
 
 function Projects() {
   return (
-    <div className="container">
+    <div className="row">
       <h2>Projects</h2>
-      {/* <div className="section">
+      {/* <div className="">
         <div className='row justify-content-center p-1'>
           <div className='col p-0 m-4'>
             <a href='https://jamehzlee.github.io/Pokemon-Data-Finder/'>

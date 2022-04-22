@@ -1,5 +1,5 @@
 import './index.css';
-import profile from '../../assets/images/profile.png'
+import profile from '../../../assets/images/profile.png'
 
 const About = () => {
     return (

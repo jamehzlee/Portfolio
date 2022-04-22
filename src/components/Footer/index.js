@@ -6,19 +6,19 @@ import resume from '../../assets/resume/James-Lee-Resume.pdf'
 
 function Footer() {
   return (
-    <footer className="row justify-content-center">
-      <IconContext.Provider value={{ size: 45, color: 'white' }}>
-        <div className='col'>
-          <a href='https://github.com/jamehzlee'><IoLogoGithub/></a>
-        </div>
-        <div className='col'>
-          <a href='https://www.linkedin.com/in/thisjameslee/'><IoLogoLinkedin/></a>
-        </div>
-        <div className='col'>
-          <a href={resume} download='James-Lee-Resume'><IoNewspaperOutline/></a>
-        </div>
-      </IconContext.Provider>
-    </footer>
+      <div className='row footer'>
+        <IconContext.Provider value={{ className:'react-icons', size: 45}} >
+          <div className='col'>
+            <a className='row' href='https://github.com/jamehzlee'><IoLogoGithub/></a>
+          </div>
+          <div className='col'>
+            <a className='row' href='https://www.linkedin.com/in/thisjameslee/'><IoLogoLinkedin/></a>
+          </div>
+          <div className='col'>
+            <a className='row' href={resume} download='James-Lee-Resume'><IoNewspaperOutline/></a>
+          </div>
+        </IconContext.Provider>
+      </div>
   );
 }
 
