@@ -1,21 +1,17 @@
 import './index.css';
-import Header from '../Header';
+import Navi from '../Navbar';
 import Footer from '../Footer';
 import { Outlet } from 'react-router-dom';
 
 const Layout = () => {
     return (
-        <div className='container'>
             <div className='row body-row'>
-            <Header />
+            <Navi />
             
-            <div className='content'>
             <Outlet />
-            </div>
 
             <Footer />
             </div>
-        </div>
     )
 }
 

@@ -1,25 +1,18 @@
 .about {
     text-align: center;
-    padding-top: 30px;
-    margin-bottom: 15px;
 }
 
 .about h2 {
-    font-size: 40px;
+    font-size: 45px;
+    padding: 30px;
+}
+
+.about img {
+    max-height: 300px;
+    max-width: 300px;
 }
 
 .about p {
     font-size: 25px;
-}
-
-div img {
-    max-height: 300px;
-}
-
-@media (min-width: 768px) {
-    .about-row {
-        text-align: center;
-        padding-top: 30px;
-        margin-bottom: 330px;
-    }
+    min-width: 370px;
 }

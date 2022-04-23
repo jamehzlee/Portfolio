@@ -1,9 +1,9 @@
-#root .container {
-    max-width: 100%;
-    min-height: 100%;
-}
+/* #root .container {
+} */
 
 #root .body-row {
+    max-width: 100%;
     min-height: 100vh;
-    min-width: 100vw;
+    margin: 0;
 }
+
