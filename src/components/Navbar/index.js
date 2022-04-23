@@ -1,7 +1,7 @@
+import './index.css';
 import { NavLink } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap'
-import './index.css';
-
+import resume from '../../assets/resume/James-Lee-Resume.pdf'
 
 const Navi = () => {
 
@@ -20,7 +20,7 @@ const Navi = () => {
 
         <Nav.Link as={NavLink} to="/contact">Contact Me</Nav.Link>
 
-        <Nav.Link as={NavLink} to="/resume">Resume</Nav.Link>
+        <Nav.Link href={resume} target='_blank'>Resume</Nav.Link>
       </Nav>
 
     </Navbar.Collapse>
