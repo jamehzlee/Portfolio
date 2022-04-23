@@ -1,0 +1,11 @@
+.row {
+    justify-content: center;
+}
+
+form .form-control {
+    background-color: #c9d1d9;
+}
+
+form .form-control::placeholder {
+    color: #0d1117;
+}
