@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.7dd6448e.css",
-    "main.js": "/Portfolio/static/js/main.068df6ec.js",
+    "main.js": "/Portfolio/static/js/main.5d8ee06e.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/James-Lee-Resume.pdf": "/Portfolio/static/media/James-Lee-Resume.070672b7af79a3a9e373.pdf",
     "static/media/profile.png": "/Portfolio/static/media/profile.748913523dfab08858a9.png",
@@ -11,11 +11,11 @@
     "static/media/blog.png": "/Portfolio/static/media/blog.95546f1300fb4f2b97b3.png",
     "index.html": "/Portfolio/index.html",
     "main.7dd6448e.css.map": "/Portfolio/static/css/main.7dd6448e.css.map",
-    "main.068df6ec.js.map": "/Portfolio/static/js/main.068df6ec.js.map",
+    "main.5d8ee06e.js.map": "/Portfolio/static/js/main.5d8ee06e.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7dd6448e.css",
-    "static/js/main.068df6ec.js"
+    "static/js/main.5d8ee06e.js"
   ]
 }
