@@ -1,27 +1,27 @@
-import './index.css';
-import { IoNewspaperOutline} from 'react-icons/io5';
-import { IoLogoGithub, IoLogoLinkedin} from 'react-icons/io';
-import { IconContext } from 'react-icons/lib';
-import resume from '../../assets/resume/James-Lee-Resume.pdf'
+import "./index.css";
+import resume from "../../assets/resume/James-Lee-Resume.pdf";
+import { GitHub, LinkedIn, SimCardDownload } from "@mui/icons-material";
+import { IconButton, Stack } from "@mui/material";
 
-function Footer() {
+export default function Footer() {
   return (
-      <div className='col footer'>
-        <div className='row footer-row'>
-          <IconContext.Provider value={{ className:'react-icons', size: 45}} >
-            <div className='col'>
-              <a className='row' href='https://github.com/jamehzlee'><IoLogoGithub/></a>
-            </div>
-            <div className='col'>
-              <a className='row' href='https://www.linkedin.com/in/thisjameslee/'><IoLogoLinkedin/></a>
-            </div>
-            <div className='col'>
-              <a className='row' href={resume} download='James-Lee-Resume'><IoNewspaperOutline/></a>
-            </div>
-          </IconContext.Provider>
-        </div>
-      </div>
+    <Stack
+      direction="row"
+      justifyContent="center"
+      spacing={10}
+      id="footer">
+      
+        <IconButton href="https://github.com/jamehzlee" target='_blank'>
+          <GitHub sx={{ fontSize: 50 }} />
+        </IconButton>
+
+        <IconButton href="https://www.linkedin.com/in/thisjameslee/" target='_blank'>
+          <LinkedIn sx={{ fontSize: 50 }} />
+        </IconButton>
+
+        <IconButton href={resume} download="James-Lee-Resume">
+          <SimCardDownload sx={{ fontSize: 50 }} />
+        </IconButton>
+    </Stack>
   );
 }
-
-export default Footer;

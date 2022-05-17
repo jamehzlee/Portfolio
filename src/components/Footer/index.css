@@ -1,18 +1,12 @@
-.footer {
+#footer {
     margin-bottom: 15px;
     align-self: end;
 }
 
-.footer-row {
-    justify-content: center;
+#footer a {
+    padding: 0;
 }
 
-.footer .col {
-    max-width: 200px;
-    min-width: 85px;
-    justify-content: center;
-}
-
-.react-icons {
+svg {
     color: white;
 }
