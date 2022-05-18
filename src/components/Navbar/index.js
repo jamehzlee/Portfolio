@@ -20,7 +20,7 @@ const Navi = () => {
 
         <Nav.Link as={NavLink} to="/contact">Contact Me</Nav.Link>
 
-        <Nav.Link href={resume} target='_blank'>Resume</Nav.Link>
+        <Nav.Link active={false} href={resume} target='_blank'>Resume</Nav.Link>
       </Nav>
 
     </Navbar.Collapse>
