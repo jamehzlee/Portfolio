@@ -2,6 +2,7 @@ import './index.css';
 import { Form, Button } from 'react-bootstrap';
 import { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import Grow from '@mui/material/Grow';
 
 function Contact() {
   const [valid, setValid] = useState(false);
@@ -32,6 +33,7 @@ function Contact() {
 
   return (
     <div className="row">
+      <Grow in={true} timeout={1000} >
       <Form ref={refForm} noValidate validated={valid} onSubmit={handleSubmit} className='col-4'>
         <Form.Group className="mb-3">
           <Form.Control required type="email" name='user_email' placeholder="Email" />
@@ -58,6 +60,7 @@ function Contact() {
           Submit
         </Button>
       </Form>
+      </Grow>
     </div>
   );
 }
