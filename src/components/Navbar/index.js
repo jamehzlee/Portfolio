@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom';
 import { Navbar, Nav } from 'react-bootstrap'
 import resume from '../../assets/resume/James-Lee-Resume.pdf'
 
-const Navi = () => {
+const NavBar = () => {
 
   return (
   <Navbar collapseOnSelect='true' expand="lg" variant='dark'>
@@ -28,4 +28,4 @@ const Navi = () => {
   );
 }
 
-export default Navi;
+export default NavBar;
