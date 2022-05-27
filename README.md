@@ -3,7 +3,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 <h2>Description</h2>
-This is my portfolio.
+This is my portfolio created using Create-React-App and React Router.
 
 <h2>Table Of Contents</h2>
 <ul><li><a href="#install">Installation</a></li>
@@ -18,12 +18,16 @@ To install dependencies for your local machine use:
 <pre>npm install</pre>
 
 <h2 id="usage">Usage</h2>
-
+Run the following in your terminal to start the application on your local machine
 <pre>npm start</pre>
 
 <h2 id="tech">Technologies used:</h2>
 <ul>
 <li>React.js</li>
+<li>React Router</li>
+<li>Material UI</li>
+<li>HTML</li>
+<li>CSS</li>
 </ul>
 
 <h2 id="cont">Contributors</h2>
