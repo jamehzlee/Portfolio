@@ -12,10 +12,10 @@ const About = () => {
             <div className="row justify-content-center">
               <img src={profile} alt="Profile" className="col"></img>
               <p className="col">
-                I am a Full Stack Developer who learned the MERN stack at the
-                Rutgers University Coding Bootcamp. In just a few months I have
-                already learned so much and am excited for what I will learn for
-                years to come.
+                I am a Full Stack Web Developer eager to hone his skills and learn new
+                skills and technologies. Experienced with working in a team
+                environment and communicating ideas with others. Focused,
+                driven, and enjoys overcoming new challenges.
               </p>
             </div>
           </div>
