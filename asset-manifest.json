@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ef8d581d.css",
-    "main.js": "/Portfolio/static/js/main.b7ea2862.js",
+    "main.js": "/Portfolio/static/js/main.7a9128a2.js",
     "static/media/profile.png": "/Portfolio/static/media/profile.748913523dfab08858a9.png",
     "static/media/freelancer.png": "/Portfolio/static/media/freelancer.fdc3a2348fcebbf931c8.png",
     "static/media/James-Lee-Resume.pdf": "/Portfolio/static/media/James-Lee-Resume.4fc12111dbf7359127bb.pdf",
     "index.html": "/Portfolio/index.html",
     "main.ef8d581d.css.map": "/Portfolio/static/css/main.ef8d581d.css.map",
-    "main.b7ea2862.js.map": "/Portfolio/static/js/main.b7ea2862.js.map"
+    "main.7a9128a2.js.map": "/Portfolio/static/js/main.7a9128a2.js.map"
   },
   "entrypoints": [
     "static/css/main.ef8d581d.css",
-    "static/js/main.b7ea2862.js"
+    "static/js/main.7a9128a2.js"
   ]
 }
