@@ -1,8 +1,6 @@
 import "./index.css";
-// import resume from "../../assets/resume/James-Lee-Resume.pdf";
-// import { GitHub, LinkedIn, SimCardDownload } from "@mui/icons-material";
-import { GitHub, LinkedIn } from "@mui/icons-material";
-import { IconButton, Stack } from "@mui/material";
+import { Stack, IconButton } from "@mui/material";
+import { GitHub, LinkedIn, Email } from "@mui/icons-material";
 
 export default function Footer() {
   return (
@@ -20,9 +18,9 @@ export default function Footer() {
           <LinkedIn sx={{ fontSize: 50 }} />
         </IconButton>
 
-        {/* <IconButton href={resume} download="James-Lee-Resume">
-          <SimCardDownload sx={{ fontSize: 50 }} />
-        </IconButton> */}
+        <IconButton href="mailto:this.jameslee96@gmail.com" >
+          <Email sx={{ fontSize: 50 }} />
+        </IconButton>
     </Stack>
   );
 }
