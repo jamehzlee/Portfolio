@@ -12,7 +12,7 @@ export default class Card extends React.Component {
           <ProjectCard>
             <CardActionArea sx={{ maxWidth: 500, maxHeight: 250 }}>
               <a href={this.props.projectLinks} target="_blank" rel="noreferrer">
-                <CardMedia component="img" src={this.props.src} alt="freelancer" />
+                <CardMedia component="img" src={this.props.src} alt={this.props.name} />
               </a>
             </CardActionArea>
           </ProjectCard>
