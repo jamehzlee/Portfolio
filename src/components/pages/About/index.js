@@ -1,5 +1,5 @@
 import "./index.css";
-import profile from "../../../assets/images/profile.png";
+import profile from "../../../assets/images/profile.avif";
 import Grow from "@mui/material/Grow";
 
 const About = () => {
