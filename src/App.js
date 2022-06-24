@@ -5,7 +5,7 @@ import { About, Projects } from './components/pages';
 
 function App() {
   return (
-    <Router basename='/Portfolio'>
+    <Router>
       <Routes>
           <Route path='/' element={<Layout />} >
             <Route index element={<About />} />
