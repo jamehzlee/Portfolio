@@ -1,42 +1,38 @@
 import "./index.css";
-import pokemon from "../../../assets/images/pokemon.png";
-import rpg from "../../../assets/images/rpg.png";
-import weather from "../../../assets/images/weather.png";
-import blog from "../../../assets/images/blog.png";
-import freelancer from "../../../assets/images/freelancer.png";
+import { pokemon, rpg, weather, blog, freelancer } from "../../../assets"
 import { Grid } from "@mui/material";
-import Card from "../../Card";
+import Card from "../../Card"
 
 export default function Projects() {
   const projects = [
     {
-      name: "freelancer",
+      name: "Freelancer",
       link: "https://freelancer-jl.herokuapp.com/",
-      src: freelancer
+      image: freelancer
     },
     {
-      name: "rpg",
+      name: "RPG Character Database",
       link: "https://bp-rpg-character-database.herokuapp.com/",
-      src: rpg
+      image: rpg
     },
     {
-      name: "pokemon",
+      name: "PokeFinder",
       link: "https://jamehzlee.github.io/Pokemon-Data-Finder/",
-      src: pokemon
+      image: pokemon
     },
     {
-      name: "weather",
+      name: "Weather Dashboard",
       link: "https://jamehzlee.github.io/Weather-Dashboard/",
-      src: weather
+      image: weather
     },
     {
-      name: "blog",
+      name: "Tech Blog",
       link: "https://tech-blog-jlee.herokuapp.com/",
-      src: blog
+      image: blog
     }
   ]
   .map((projects, i) => 
-    <Card key={i} projectLinks={projects.link} src={projects.src} name={projects.name}/>
+    <Card key={i} projectLinks={projects.link} src={projects.image} name={projects.name}/>
   )
 
   return (
