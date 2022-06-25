@@ -10,11 +10,15 @@ const About = () => {
         <div className="row justify-content-center">
           <div className="col col-9">
             <div className="row justify-content-center">
-              <img src={profile} alt="Profile" className="col"></img>
+              <img
+                src={profile}
+                alt="profile image"
+                className="col"
+              />
               <p className="col">
-                I am a Full Stack Web Developer eager to hone his skills and learn new
-                skills and technologies. Experienced with working in a team
-                environment and communicating ideas with others. Focused,
+                I am a Full Stack Web Developer eager to hone his skills and
+                learn new skills and technologies. Experienced with working in a
+                team environment and communicating ideas with others. Focused,
                 driven, and enjoys overcoming new challenges.
               </p>
             </div>
