@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.38d728df.css",
-    "main.js": "/static/js/main.8bb5b59d.js",
-    "static/media/profile.avif": "/static/media/profile.12c29edc479ca7c13e70.avif",
+    "main.css": "/static/css/main.571a99fc.css",
+    "main.js": "/static/js/main.f5d3c64e.js",
     "static/media/rpg.png": "/static/media/rpg.19689f62acb04f39d491.png",
     "static/media/pokemon.png": "/static/media/pokemon.186615e2529800db9d1a.png",
     "static/media/freelancer.png": "/static/media/freelancer.fdc3a2348fcebbf931c8.png",
     "static/media/James-Lee-Resume.pdf": "/static/media/James-Lee-Resume.4fc12111dbf7359127bb.pdf",
     "static/media/weather.png": "/static/media/weather.b55b5cc6734db4ee8d92.png",
+    "static/media/profile.avif": "/static/media/profile.ab0d5d0595afc4987bf0.avif",
     "static/media/blog.png": "/static/media/blog.95546f1300fb4f2b97b3.png",
     "index.html": "/index.html",
-    "main.38d728df.css.map": "/static/css/main.38d728df.css.map",
-    "main.8bb5b59d.js.map": "/static/js/main.8bb5b59d.js.map"
+    "main.571a99fc.css.map": "/static/css/main.571a99fc.css.map",
+    "main.f5d3c64e.js.map": "/static/js/main.f5d3c64e.js.map"
   },
   "entrypoints": [
-    "static/css/main.38d728df.css",
-    "static/js/main.8bb5b59d.js"
+    "static/css/main.571a99fc.css",
+    "static/js/main.f5d3c64e.js"
   ]
 }
