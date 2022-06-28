@@ -16,11 +16,6 @@ export default function Projects() {
       image: rpg
     },
     {
-      name: "PokeFinder",
-      link: "https://jamehzlee.github.io/Pokemon-Data-Finder/",
-      image: pokemon
-    },
-    {
       name: "Weather Dashboard",
       link: "https://jamehzlee.github.io/Weather-Dashboard/",
       image: weather
